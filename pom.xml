@@ -26,9 +26,21 @@
 
 	<repositories>
 		<repository>
+			<id>central</id>
+			<name>Maven Central Repository</name>
+			<url>https://repo.maven.apache.org/maven2</url>
+			<layout>default</layout>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+		<repository>
 			<id>prime-repo</id>
 			<name>PrimeFaces Maven Repository</name>
-			<url>http://repository.primefaces.org</url>
+			<url>https://repository.primefaces.org</url>
 			<layout>default</layout>
 		</repository>
 	</repositories>
@@ -50,8 +62,8 @@
 		</dependency>
 
 		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
 			<scope>runtime</scope>
 		</dependency>
 
@@ -103,7 +115,8 @@
 			<artifactId>all-themes</artifactId>
 			<version>1.0.10</version>
 		</dependency>
-		
+
+
 		<dependency>
 			<groupId>net.bootsfaces</groupId>
 			<artifactId>bootsfaces</artifactId>
@@ -114,7 +127,8 @@
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
-			<version>1.16.6</version>
+			<version>1.18.32</version>
+			<scope>provided</scope>
 		</dependency>
 		
 		<dependency>

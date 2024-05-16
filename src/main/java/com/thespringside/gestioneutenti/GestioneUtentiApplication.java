@@ -29,7 +29,7 @@ public class GestioneUtentiApplication extends SpringBootServletInitializer {
  
     @Bean
     public ServletRegistrationBean facesServletRegistration() {
-      ServletRegistrationBean registration = new   ServletRegistrationBean(facesServlet(), "*.xhtml");
+      ServletRegistrationBean registration = new ServletRegistrationBean(facesServlet(), "*.xhtml");
       return registration;
     }
    

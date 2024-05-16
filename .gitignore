@@ -4,4 +4,5 @@ target
 .classpath
 .project
 mvnw
-mvnw.cmd 
+mvnw.cmd
+.idea
