@@ -1,2 +1,23 @@
 # gestioneUtenti
-Un esempio di web application per la gestione utenti realizzata con Spring Boot, Spring Security, Spring Data JPA e JSF
+
+## Run Project
+
+Corriendo el comando:
+
+``
+mvn clean spring-boot:run
+``
+
+O tambien puedes correrlo dandole Run al archivo GestioneUtentiApplication.java ubicado en:
+
+``
+src/main/java/com/thespringside/gestioneutenti/GestioneUtentiApplication.java
+``
+
+## Usuarios
+
+username: admin
+password: admin
+
+username: test
+password: test
